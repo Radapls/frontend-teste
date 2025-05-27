@@ -1,48 +1,126 @@
 {
-    "centrals": [
-        {
-            "id": 1,
-            "name": "Central 1",
-            "mac": "10:E0:09:00:50:00",
-            "modelId": 1
-        },
-        {
-            "id": 2,
-            "name": "Central 2",
-            "mac": "03:00:G0:80:80:02",
-            "modelId": 2
-        },
-        {
-            "id": 3,
-            "name": "Central 3",
-            "mac": "56:0U:00:60:40:00",
-            "modelId": 4
-        }
-    ],
-    "models": [
-        {
-            "id": 1,
-            "name": "AMT 4010"
-        },
-        {
-            "id": 2,
-            "name": "AMT 4010 SMART"
-        },
-        {
-            "id": 3,
-            "name": "AMT 2018"
-        },
-        {
-            "id": 4,
-            "name": "AMT 2018 E/EG"
-        },
-        {
-            "id": 5,
-            "name": "AMT 1000"
-        },
-        {
-            "id": 6,
-            "name": "AMT 8000"
-        }
-    ]
+  "centrals": [
+    {
+      "id": "1c396013-81fb-4d46-8961-e22fb487f301",
+      "name": "Central de Gilberto 2",
+      "mac": "56:07:00:60:40:00",
+      "modelId": "5"
+    },
+    {
+      "id": "3846abc9-c58b-4b22-8d69-3f63c2661203",
+      "name": "Uma nova central",
+      "mac": "32:13:21:32:13:21",
+      "modelId": "6"
+    },
+    {
+      "id": "9c38e547-ced3-4da4-be52-b412c0c18b9e",
+      "name": "Centralisisima",
+      "mac": "54:52:34:54:35:24",
+      "modelId": "3"
+    },
+    {
+      "name": "Uma nova central 8",
+      "mac": "13:45:12:35:43:53",
+      "modelId": "3",
+      "id": "f45fad73-8e92-42a4-868e-90d243b003e4"
+    },
+    {
+      "id": "61add64a-7b4d-4d49-9db3-7d6d874d25c3",
+      "name": "Central de novo",
+      "mac": "a6:6a:6f:54:f3:3f",
+      "modelId": "4"
+    },
+    {
+      "id": "5dced7c5-ffed-491e-921f-bf64a5f320f0",
+      "name": "La ultima central",
+      "mac": "32:13:21:32:13:21",
+      "modelId": "3"
+    },
+    {
+      "name": "Central criada 2",
+      "mac": "43:42:34:23:42:34",
+      "modelId": "4",
+      "id": "e764e089-1586-466f-85b0-fc0c77331299"
+    },
+    {
+      "id": "87e1bf03-68e3-4fbb-a71b-fa301b9c484b",
+      "name": "Central de minha vo",
+      "mac": "43:23:42:13:41:32",
+      "modelId": "2"
+    },
+    {
+      "name": "Mais uma central!",
+      "mac": "34:32:43:24:23:43",
+      "modelId": "6",
+      "id": "e12ccff8-ca53-4cee-9e81-9b0d9bb79ea2"
+    },
+    {
+      "id": "435cba11-be79-4270-a6c5-be8376fa24f1",
+      "name": "Ztral",
+      "mac": "43:24:12:34:23:42",
+      "modelId": "3"
+    },
+    {
+      "id": "b5afc731-d039-4e53-8601-4f801204a4a2",
+      "name": "Central casi finalizada",
+      "mac": "42:34:12:34:51:24",
+      "modelId": "6"
+    },
+    {
+      "id": "10a13679-6a1a-4f82-a897-a7e93d857336",
+      "name": "Cnreais pra amanha",
+      "mac": "43:24:23:42:34:32",
+      "modelId": "5"
+    },
+    {
+      "name": "Central do patrao 1234",
+      "mac": "56:07:00:60:40:32",
+      "modelId": "5",
+      "id": "f6f2d92a-2d9f-4c1d-ab9a-bc944214fd83"
+    },
+    {
+      "id": "dec94803-6c36-466e-a1fc-fc60a3d6cbbc",
+      "name": "rewrewrwe",
+      "mac": "56:07:00:60:40:00",
+      "modelId": "4"
+    },
+    {
+      "id": "1126cd44-b5f7-4eb6-a797-2905cba58231",
+      "name": "Central de mi mama",
+      "mac": "32:12:13:21:32:13",
+      "modelId": "3"
+    },
+    {
+      "id": "0b3973e4-da23-4529-b7b9-244c9f545d50",
+      "name": "Test central",
+      "mac": "21:32:33:21:34:23",
+      "modelId": "3"
+    }
+  ],
+  "models": [
+    {
+      "id": "1",
+      "name": "AMT 4010"
+    },
+    {
+      "id": "2",
+      "name": "AMT 4010 SMART"
+    },
+    {
+      "id": "3",
+      "name": "AMT 2018"
+    },
+    {
+      "id": "4",
+      "name": "AMT 2018 E/EG"
+    },
+    {
+      "id": "5",
+      "name": "AMT 1000"
+    },
+    {
+      "id": "6",
+      "name": "AMT 8000"
+    }
+  ]
 }
