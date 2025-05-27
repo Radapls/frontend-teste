@@ -1,5 +1,6 @@
+import { theme } from '@components/styles/theme/theme.css';
 import { style } from '@vanilla-extract/css';
 
 export const titleTextStyle = style({
-  fontSize: '1em',
+  fontSize: theme.fontSize.md,
 });

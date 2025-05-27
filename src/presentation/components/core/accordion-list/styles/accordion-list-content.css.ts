@@ -25,7 +25,7 @@ export const accordionListContentStyle = style({
   alignItems: 'center',
   marginLeft: '4.2rem',
 
-  fontSize: '1.6rem',
+  fontSize: theme.fontSize.sm,
   color: theme.colors.primaryForeground,
 
   selectors: {

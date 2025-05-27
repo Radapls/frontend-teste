@@ -14,7 +14,7 @@ export const largeScrollbarStyle: ComplexStyleRule = {
   },
   '::-webkit-scrollbar-thumb': {
     backgroundColor: theme.colors.secondaryForeground,
-    borderRadius: '12px',
+    borderRadius: theme.radius.md,
   },
 };
 
@@ -30,7 +30,7 @@ export const mediumScrollbarStyle: ComplexStyleRule = {
   },
   '::-webkit-scrollbar-thumb': {
     backgroundColor: theme.colors.secondaryForeground,
-    borderRadius: '12px',
+    borderRadius: theme.radius.md,
   },
 };
 
@@ -46,6 +46,6 @@ export const smallScrollbarStyle: ComplexStyleRule = {
   },
   '::-webkit-scrollbar-thumb': {
     backgroundColor: theme.colors.secondaryForeground,
-    borderRadius: '12px',
+    borderRadius: theme.radius.md,
   },
 };

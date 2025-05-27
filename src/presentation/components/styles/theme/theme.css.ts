@@ -53,4 +53,37 @@ export const theme = createGlobalTheme(":root", {
   fonts: {
     primary: "var(--nunito-font), sans-serif",
   },
+  spacing: {
+    none: "0",
+    xs: "0.5rem",
+    sm: "1rem",
+    md: "1.5rem",
+    lg: "2rem",
+    xl: "2.5rem",
+    xxl: "3rem",
+  },
+  fontSize: {
+    xs: "1rem",
+    sm: "1.5rem",
+    md: "2rem",
+    lg: "2.5rem",
+    xl: "3rem"
+  },
+  radius: {
+    sm: "0.25rem",
+    md: "0.5rem",
+    lg: "0.75rem",
+    xl: "1rem",
+    full: "9999px",
+  },
+  transition: {
+    fast: "0.2s ease-in-out",
+    normal: "0.3s ease-in-out",
+    slow: "0.5s ease-in-out",
+  },
+  shadow: {
+    sm: "0 1px 2px rgba(0, 0, 0, 0.05)",
+    md: "0 2px 4px rgba(0, 0, 0, 0.1)",
+    lg: "0 4px 8px rgba(0, 0, 0, 0.15)",
+  },
 });

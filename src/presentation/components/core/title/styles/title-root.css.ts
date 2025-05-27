@@ -12,15 +12,18 @@ export const titleRootStyle = style({
 
 export const titleRootLargeStyle = style({
   gap: '1.2rem',
-  fontSize: '3.2rem',
+  fontSize: theme.fontSize.xl,
+  alignItems: 'center',
 });
 
 export const titleRootMediumStyle = style({
   gap: '1rem',
-  fontSize: '2.4rem',
+  fontSize: theme.fontSize.sm,
+  alignItems: 'center',
 });
 
 export const titleRootSmallStyle = style({
   gap: '0.8rem',
-  fontSize: '1.8rem',
+  alignItems: 'center',
+  fontSize: theme.fontSize.xs,
 });

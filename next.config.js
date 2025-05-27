@@ -1,6 +1,6 @@
 const {
-  createVanillaExtractPlugin,
-} = require("@syfxlin/next-plugin-vanilla-extract");
+  createVanillaExtractPlugin
+} = require('@vanilla-extract/next-plugin');
 const withVanillaExtract = createVanillaExtractPlugin();
 
 /** @type {import('next').NextConfig} */
@@ -9,12 +9,6 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   output: "standalone",
-  experimental: {
-    appDir: true,
-  },
-  fastRefresh: true,
-  concurrentFeatures: true,
-  swcMinify: true,
 };
 
 module.exports = withVanillaExtract(nextConfig);

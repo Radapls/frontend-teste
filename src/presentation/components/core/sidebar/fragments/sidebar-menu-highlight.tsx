@@ -14,7 +14,7 @@ export const SidebarMenuHighlight: FC<SidebarMenuHighlightProps> = (props) => {
     if (path === "/") {
       return currentPath === "/";
     }
-    return currentPath.startsWith(path);
+    return currentPath === path;
   };
 
   return (

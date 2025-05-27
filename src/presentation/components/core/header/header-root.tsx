@@ -9,8 +9,8 @@ export const HeaderRoot: FC<HeaderRootProps> = (props) => {
   const classes = classNames(headerRootStyle, className);
 
   return (
-    <div {...rest} className={classes}>
+    <header {...rest} className={classes}>
       {children}
-    </div>
+    </header>
   );
 };

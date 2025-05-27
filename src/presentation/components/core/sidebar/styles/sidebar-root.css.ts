@@ -3,11 +3,10 @@ import { style } from '@vanilla-extract/css';
 import { theme } from '@components/styles/theme/theme.css';
 
 export const sidebarRootStyle = style({
-  height: '100%',
   display: 'flex',
   flexDirection: 'column',
-  width: '10.8rem',
-  transition: 'width 0.2s ease-in-out',
+  width: '8rem',
+  transition: 'width 0.2s ease',
   zIndex: 1,
 
   ':hover': {
@@ -22,7 +21,7 @@ export const sideBarHeaderStyle = style({
   gap: '1.5rem',
   height: '10rem',
   alignItems: 'center',
-  marginBottom: '1rem',
+  padding: '1rem',
 
   selectors: {
     [`${sidebarRootStyle}:hover &`]: {
@@ -63,12 +62,14 @@ export const sideBarDefenseLogoSmallStyle = style({
 });
 
 export const sideBarTitleHeaderStyle = style({
-  fontSize: '0.9rem',
+  fontSize: theme.fontSize.xs,
+  textAlign: 'center',
   color: theme.colors.primaryForeground,
+  transition: 'all 0.1s ease',
 
   selectors: {
     [`${sidebarRootStyle}:hover &`]: {
-      display: 'none',
+      display: 'none'
     },
   },
 });

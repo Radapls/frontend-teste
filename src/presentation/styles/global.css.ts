@@ -1,41 +1,48 @@
-import { globalStyle } from '@vanilla-extract/css';
+import { globalStyle } from "@vanilla-extract/css";
 
-import { BREAKPOINTS } from '@components/styles/theme/breakpoints';
-import { theme } from '@components/styles/theme/theme.css';
+import { BREAKPOINTS } from "@components/styles/theme/breakpoints";
+import { theme } from "@components/styles/theme/theme.css";
 
-globalStyle('*, *::before, *::after', {
+globalStyle("*, *::before, *::after", {
   margin: 0,
   padding: 0,
-  boxSizing: 'border-box',
-  border: 'none',
+  boxSizing: "border-box",
+  border: "none",
 });
 
-globalStyle('*::selection', {
+globalStyle("*::selection", {
   backgroundColor: theme.colors.foregroundSelectionBackground,
 });
 
-globalStyle('*:focus', {
+globalStyle("*:focus", {
   outline: 0,
 });
 
-globalStyle('html', {
-  fontSize: '54.69%',
-
-  '@media': {
+globalStyle("html", {
+  fontSize: "initial",
+  "@media": {
+    [`screen and ${BREAKPOINTS.xs}`]: {
+      fontSize: "30%",
+    },
+    [`screen and ${BREAKPOINTS.sm}`]: {
+      fontSize: "40%",
+    },
     [`screen and ${BREAKPOINTS.md}`]: {
-      fontSize: '47.59%',
+      fontSize: "60%",
     },
     [`screen and ${BREAKPOINTS.lg}`]: {
-      fontSize: '51.5%',
+      fontSize: "70%",
+    },
+    [`screen and ${BREAKPOINTS.xl}`]: {
+      fontSize: "80%",
     },
   },
 });
 
-globalStyle('body', {
-  width: '1%',
-  height: '110vh',
+globalStyle("body", {
+  minHeight: "100dvh",
   fontFamily: theme.fonts.primary,
-  WebkitFontSmoothing: 'antialiased',
+  WebkitFontSmoothing: "antialiased",
   backgroundColor: theme.colors.background,
-  color: theme.colors.primaryForeground
+  color: theme.colors.primaryForeground,
 });
