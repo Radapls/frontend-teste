@@ -1,19 +1,19 @@
-import { style } from '@vanilla-extract/css';
+import { style } from "@vanilla-extract/css";
 
 import {
   SCROLLBAR_LARGE_SIZE,
   SCROLLBAR_MEDIUM_SIZE,
   SCROLLBAR_SMALL_SIZE,
-} from '../constants';
+} from "../constants";
 
 export const scrollAreaScrollbarStyle = style({
-  display: 'flex',
-  userSelect: 'none',
-  touchAction: 'none',
+  display: "flex",
+  userSelect: "none",
+  touchAction: "none",
 
   selectors: {
     '&[data-orientation="horizontal"]': {
-      flexDirection: 'column',
+      flexDirection: "column",
     },
   },
 });

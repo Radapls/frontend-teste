@@ -1,15 +1,14 @@
 import { style } from '@vanilla-extract/css';
 
 export const scrollAreaRootStyle = style({
+  position: 'relative',
   width: '100%',
-  height: '100%',
+  height: '400px',
   overflow: 'hidden',
 });
 
 export const scrollAreaViewportStyle = style({
-  width: '100%',
+  paddingRight: '0.5rem',
   height: '100%',
-  borderRadius: 'inherit',
+  overflow: 'auto',
 });
-
-export const scrollAreaScrollbarCornerStyle = style({});

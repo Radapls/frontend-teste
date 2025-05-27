@@ -8,6 +8,6 @@ export const cardInfoStyle = style({
     backgroundColor: theme.colors.secondarySurface,
     padding: '2rem',
     fontSize: "1.6rem",
-    borderRadius: "6px",
+    borderRadius: theme.radius.md,
     marginBottom: "1rem",
 });

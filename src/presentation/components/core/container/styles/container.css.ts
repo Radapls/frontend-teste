@@ -42,11 +42,11 @@ export const containerAlertStyle = style({
 });
 
 export const containerMediumBorderRadiusStyle = style({
-  borderRadius: '16px',
+  borderRadius: theme.radius.xl,
 });
 
 export const containerSmallBorderRadiusStyle = style({
-  borderRadius: '8px',
+  borderRadius: theme.radius.md,
 });
 
 export const containerCentralizedStyle = style({
@@ -158,7 +158,7 @@ export const containerTaggedAlertStyle = style({
 // });
 
 // export const containerRoundedSmallStyle = style({
-//   borderRadius: '8px',
+//   borderRadius: theme.radius.md,
 // });
 
 // export const containerRoundedMediumStyle = style({

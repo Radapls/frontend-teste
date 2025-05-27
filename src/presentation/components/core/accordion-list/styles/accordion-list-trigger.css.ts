@@ -30,7 +30,7 @@ export const accordionListTriggerContentStyle = style({
 });
 
 export const accordionListTriggerIconStyle = style({
-  fontSize: '1.8rem',
+  fontSize: theme.fontSize.sm,
   color: theme.colors.primaryForeground,
 
   transition: 'transform 0.3s ease-in-out',
@@ -43,7 +43,7 @@ export const accordionListTriggerIconStyle = style({
 });
 
 export const accordionListTriggerLabelStyle = style({
-  fontSize: '1.6rem',
+  fontSize: theme.fontSize.sm,
   color: theme.colors.primaryForeground,
 
   selectors: {

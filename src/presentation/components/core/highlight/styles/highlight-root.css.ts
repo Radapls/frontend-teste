@@ -1,6 +1,6 @@
+import { theme } from '@components/styles/theme/theme.css';
 import { style, CSSProperties } from '@vanilla-extract/css';
 
-import { theme } from '../../../styles/theme/theme.css';
 
 export const highlightedSuccessStyle: CSSProperties = {
   borderColor: theme.colors.success,
@@ -26,9 +26,9 @@ export const highlightRootStyle = style({
   display: 'inline-flex',
   color: theme.colors.primaryForeground,
 
-  fontSize: '1.6rem',
+  fontSize: theme.fontSize.sm,
 
-  borderRadius: '6px 0 0 6px',
+  borderRadius: `${theme.radius.md} 0 0 ${theme.radius.md}`,
   borderLeft: '4.8px solid transparent',
 });
 

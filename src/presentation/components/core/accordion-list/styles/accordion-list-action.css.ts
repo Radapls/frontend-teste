@@ -21,14 +21,14 @@ export const accordionListActionStyle = style({
   textAlign: 'right',
   fontFamily: theme.fonts.primary,
   color: theme.colors.primaryForeground,
-  fontSize: '2.4rem',
+  fontSize: theme.fontSize.lg,
 
   cursor: 'pointer',
 
   backgroundColor: 'transparent',
 
   ':hover': {
-    color: theme.colors.neutral,
+    color: theme.colors.neutral
   },
 
   selectors: {

@@ -28,8 +28,8 @@ export const sidebarMenuItemStyle = style({
   padding: "1.4rem 2.2rem",
   display: "flex",
   alignItems: "center",
-  justifyContent: "center",
   gap: "1.4rem",
+  transition: 'all ease 0.3s'
 });
 
 export const sidebarMenuItemDisabledStyle = style({
@@ -49,6 +49,10 @@ export const sidebarMenuItemLinkStyle = style([
     ":hover": {
       borderColor: theme.colors.success,
       background: `linear-gradient(100deg, ${theme.colors.highlightSuccessEntrypoint} 0%, ${theme.colors.highlightSuccessEndpoint} 100%)`,
+    },
+      ":active": {
+      borderColor: theme.colors.success,
+      background: theme.colors.foregroundSelectionBackground,
     },
     selectors: {
       [`${sidebarRootStyle}:hover &`]: {
@@ -124,22 +128,29 @@ export const sidebarMenuItemTriggerStyle = style([
 ]);
 
 export const sidebarTextStyle = style({
-  display: "none",
+  opacity: 0,
+  visibility: "hidden",
+  transform: "translateX(-0.5rem)",
+  transition: "opacity 0.3s ease, transform 0.3s ease",
 
   selectors: {
     [`${sidebarRootStyle}:hover &`]: {
-      display: "inline-flex",
+      opacity: 1,
+      visibility: "visible",
+      transform: "translateX(0)",
     },
   },
 });
 
 export const sidebarTriggerFlagStyle = style({
-  display: "none",
-  marginLeft: "auto",
+  opacity: 0,
+  visibility: "hidden",
+  transition: "opacity 0.3s ease",
 
   selectors: {
     [`${sidebarRootStyle}:hover &`]: {
-      display: "inline-block",
+      opacity: 1,
+      visibility: "visible",
     },
   },
 });

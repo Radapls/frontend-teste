@@ -7,4 +7,5 @@ export const headerButtonStyle = style({
   background: 'transparent',
   color: theme.colors.primaryForeground,
   cursor: 'pointer',
+  transition: 'ease-in-out 0.3s'
 });

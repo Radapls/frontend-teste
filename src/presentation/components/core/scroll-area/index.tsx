@@ -5,8 +5,7 @@ import {
   Root as PrimitiveRoot,
   Viewport as PrimitiveViewport,
   Scrollbar as PrimitiveScrollbar,
-  Thumb as PrimitiveThumb,
-  Corner as PrimitiveCorner,
+  Thumb as PrimitiveThumb
 } from '@radix-ui/react-scroll-area';
 import classNames from 'classnames';
 
@@ -25,12 +24,9 @@ export const ScrollArea: FC<ScrollAreaRootProps> = (props) => {
       <PrimitiveViewport className={styles.scrollAreaViewportStyle}>
         {children}
       </PrimitiveViewport>
-
       <PrimitiveScrollbar className={scrollbarClasses} orientation="vertical">
         <PrimitiveThumb className={scrollAreaScrollbarThumbStyle} />
       </PrimitiveScrollbar>
-
-      <PrimitiveCorner className={styles.scrollAreaScrollbarCornerStyle} />
     </PrimitiveRoot>
   );
 };

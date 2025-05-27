@@ -15,23 +15,3 @@ export const Accordion = {
   TriggerFlag: AccordionTriggerFlag,
   Content: AccordionContent,
 };
-
-/**
- * <Accordion.Root>
- *   <Accordion.Item>
- *      <Accordion.Trigger>
- *        <Accordion.TriggerItem>
- *        </Accordion.TriggerItem>
- *
- *        <Accordion.Text>
- *        </Accordion.Text>
- *
- *        <Accordion.TriggerFlag>
- *        </Accordion.TriggerFlag>
- *      </Accordion.Trigger>
- *
- *      <Accordion.Content>
- *      </Accordion.Content>
- *   </Accordion.Item>
- * </Accordion.Root>
- */
